@@ -5,9 +5,7 @@ terraform {
             version = ">=2.7.0"
         }
     }
-
-
-
+    
     backend "s3" {
         bucket = "my-s3-backend-test-98654372"
         key = "backend/terraform.tfstate"
